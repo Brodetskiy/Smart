@@ -177,7 +177,7 @@
     <Build Include="Tables\Production\ZPP_EFFICIENT.sql" />
     <Build Include="Tables\Production\ZPP070224.sql" />
     <Build Include="Tables\Stage\ZPP070224.sql" />
-    <Build Include="Procedures\Stage\КопияinsertDebit.sql" />
+    <Build Include="Procedures\Stage\insertZPP070224.sql" />
     <Build Include="Tables\Production\BPC_plan_year_EI.sql" />
     <Build Include="Tables\Production\BPC_FG_plan_year.sql" />
     <Build Include="Tables\Production\FactFG.sql" />
