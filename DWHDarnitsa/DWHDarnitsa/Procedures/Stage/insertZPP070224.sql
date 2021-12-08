@@ -1,7 +1,6 @@
 ﻿create PROCEDURE [stage].[insertZPP070224]
 	AS
 		begin
-			
 			set dateformat dmy;
 			truncate table Production.ZPP070224
 			--where exists (select 1 from stage.debit_temp s where try_cast(s.[Дата звіту] as date) = [Дата звіту])
