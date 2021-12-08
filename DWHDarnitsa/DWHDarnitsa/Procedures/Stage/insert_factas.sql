@@ -2,7 +2,6 @@
 as
 BEGIN
 
-
     SET DATEFORMAT DMY
 
 
