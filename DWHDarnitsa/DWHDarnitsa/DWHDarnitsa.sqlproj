@@ -75,6 +75,7 @@
     <Folder Include="Tables\XML" />
     <Folder Include="Procedures\XML" />
     <Folder Include="Tables\Production" />
+    <Folder Include="Tables\Personnel" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Morion\Area.sql" />
@@ -181,6 +182,14 @@
     <Build Include="Tables\Production\BPC_FG_plan_year.sql" />
     <Build Include="Tables\Production\FactFG.sql" />
     <Build Include="Tables\Production\PlanFG_.sql" />
+    <Build Include="Tables\dbo\Price.sql" />
+    <Build Include="Procedures\Stage\Insert_Stock.sql" />
+    <Build Include="Tables\dbo\Stock.sql" />
+    <Build Include="Tables\Stage\Stock_temp.sql" />
+    <Build Include="Tables\dbo\WIP_GL.sql" />
+    <Build Include="Tables\dbo\war_capacity.sql" />
+    <Build Include="Schema\Personnel.sql" />
+    <Build Include="Tables\Personnel\AD.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DWHDarnitsa.refactorlog" />
