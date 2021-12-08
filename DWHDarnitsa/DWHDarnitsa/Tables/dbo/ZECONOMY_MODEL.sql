@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[ZECONOMY_MODEL]
+(
+	[MANDT] nvarchar(max),
+	[PRDHA] nvarchar(max),
+	[MATNR] nvarchar(max),
+	[VERSION] int,
+	[DATUM] date,
+	[MENGE1] float,
+	[MENGE2] float,
+	[MENGE3] float,
+	[MENGE4] float,
+	[MENGE5] float,
+	[MENGE6] float,
+	[PRICE1] float,
+	[PRICE2] float,
+	[PRICE3] float,
+	[PRICE4] float,
+	[PRICE5] float,
+	[PRICE6] float,
+	[PERCENT1] float,
+	[PERCENT2] float,
+	[PERCENT3] float,
+	[PERCENT4] float,
+	[PERCENT5] float,
+	[PERCENT6] float,
+	[AEDAT] date,
+	[AENAM] nvarchar(max)
+)

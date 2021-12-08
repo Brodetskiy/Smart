@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>DWHDarnitsa</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{7a79794f-f024-4a6c-8a0b-1f88827ee68b}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureV12DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>DWHDarnitsa</RootNamespace>
+    <AssemblyName>DWHDarnitsa</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Tables\Morion" />
+    <Folder Include="Schema" />
+    <Folder Include="Tables\Dar" />
+    <Folder Include="Procedures" />
+    <Folder Include="Procedures\log" />
+    <Folder Include="Tables\log" />
+    <Folder Include="Tables\Finance" />
+    <Folder Include="Tables\Stage" />
+    <Folder Include="Procedures\Stage" />
+    <Folder Include="Tables\Project" />
+    <Folder Include="Tables\dbo" />
+    <Folder Include="Views" />
+    <Folder Include="Views\Project" />
+    <Folder Include="Tables\Contentum" />
+    <Folder Include="Tables\Dictionaries" />
+    <Folder Include="Tables\XML" />
+    <Folder Include="Procedures\XML" />
+    <Folder Include="Tables\Production" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Morion\Area.sql" />
+    <Build Include="Schema\Morion.sql" />
+    <Build Include="Tables\Morion\HospCMonthD.sql" />
+    <Build Include="Tables\Morion\SOCMonthC.sql" />
+    <Build Include="Tables\Morion\SOCMonthD.sql" />
+    <Build Include="Tables\Morion\SOCMonthFS.sql" />
+    <Build Include="Tables\Morion\SOCMonthMC.sql" />
+    <Build Include="Tables\Morion\SOCWeekC.sql" />
+    <Build Include="Tables\Morion\SOCWeekD.sql" />
+    <Build Include="Tables\Morion\SOCWeekFS.sql" />
+    <Build Include="Tables\Morion\SOCWeekMC.sql" />
+    <Build Include="Tables\Morion\SOMonthC.sql" />
+    <Build Include="Tables\Morion\SOMonthD.sql" />
+    <Build Include="Tables\Morion\SOMonthF.sql" />
+    <Build Include="Tables\Morion\SOMonthM.sql" />
+    <Build Include="Tables\Morion\Drugeng.sql" />
+    <Build Include="Tables\Morion\DrugRus.sql" />
+    <Build Include="Tables\Morion\Drugukr.sql" />
+    <Build Include="Schema\dar.sql" />
+    <Build Include="Tables\Dar\ZDEFECT_TABLE.sql" />
+    <Build Include="Tables\Morion\Group.sql" />
+    <Build Include="Schema\log.sql" />
+    <Build Include="Procedures\log\logInsert.sql" />
+    <Build Include="Tables\log\logLoad.sql" />
+    <Build Include="Schema\Finance.sql" />
+    <Build Include="Tables\Finance\Debit.sql" />
+    <Build Include="Tables\Dar\CRM.sql" />
+    <Build Include="Schema\Stage.sql" />
+    <Build Include="Tables\Stage\Debit_Temp.sql" />
+    <Build Include="Procedures\Stage\insertDebit.sql" />
+    <Build Include="Tables\Stage\plan_temp.sql" />
+    <Build Include="Tables\Dar\plan.sql" />
+    <Build Include="Tables\Stage\SOCWeekD_temp.sql" />
+    <Build Include="Procedures\Stage\insertSOCWeekD.sql" />
+    <Build Include="Tables\Dar\fact.sql" />
+    <Build Include="Tables\Stage\fact_qlik_temp.sql" />
+    <Build Include="Tables\Stage\fact_SAP_temp.sql" />
+    <Build Include="Procedures\Stage\insert_plan.sql" />
+    <Build Include="Procedures\Stage\insert_factas.sql" />
+    <Build Include="Tables\Stage\SOCWeekMC_temp.sql" />
+    <Build Include="Procedures\Stage\insertSOCWeekMC.sql" />
+    <Build Include="Tables\Stage\SOMonthC_temp.sql" />
+    <Build Include="Procedures\Stage\insertSOMonthC.sql" />
+    <Build Include="Tables\Stage\SOMonthD_temp.sql" />
+    <Build Include="Procedures\Stage\insertSOMonthD.sql" />
+    <Build Include="Tables\Stage\SOMonthF_temp.sql" />
+    <Build Include="Procedures\Stage\insertSOMonthF.sql" />
+    <Build Include="Tables\Stage\SOMonthM_temp.sql" />
+    <Build Include="Procedures\Stage\insertSOMonthM.sql" />
+    <Build Include="Tables\Stage\HospCMonthD_temp.sql" />
+    <Build Include="Procedures\Stage\insertHospCMonthD.sql" />
+    <Build Include="Tables\Stage\SOCMonthC_temp.sql" />
+    <Build Include="Procedures\Stage\insertSOCMonthC.sql" />
+    <Build Include="Tables\Stage\SOCMonthD_temp.sql" />
+    <Build Include="Procedures\Stage\insertSOCMonthD.sql" />
+    <Build Include="Tables\Stage\SOCMonthFS_temp.sql" />
+    <Build Include="Procedures\Stage\insertSOCMonthFS.sql" />
+    <Build Include="Tables\Stage\SOCMonthMC_temp.sql" />
+    <Build Include="Procedures\Stage\insertSOCMonthMC.sql" />
+    <Build Include="Tables\Stage\SOCWeekC_temp.sql" />
+    <Build Include="Procedures\Stage\insertSOCWeekC.sql" />
+    <Build Include="Tables\Stage\SOCWeekFS.sql" />
+    <Build Include="Procedures\Stage\insertSOCWeekFS.sql" />
+    <Build Include="Schema\Project.sql" />
+    <Build Include="Tables\Project\Projects.sql" />
+    <Build Include="Tables\Project\Tasks.sql" />
+    <Build Include="Tables\dbo\Products.sql" />
+    <Build Include="Tables\dbo\Trimaran.sql" />
+    <Build Include="Tables\dbo\ZECONOMY_MODEL.sql" />
+    <Build Include="Tables\Project\BaseProjects.sql" />
+    <Build Include="Views\Project\vProjects.sql" />
+    <Build Include="Schema\Contentum.sql" />
+    <Build Include="Tables\Contentum\DepartPositionUpdate.sql" />
+    <Build Include="Tables\Contentum\HumanDepartUpdate.sql" />
+    <Build Include="Tables\Contentum\PositionCheifUpdate.sql" />
+    <Build Include="Tables\Project\Budget.sql" />
+    <Build Include="Tables\Project\BaseTasks.sql" />
+    <Build Include="Views\Project\vTasks.sql" />
+    <Build Include="Tables\Finance\DebitGoodsInTransit.sql" />
+    <Build Include="Schema\Dictionaries.sql" />
+    <Build Include="Tables\Dictionaries\DespatchDecode.sql" />
+    <Build Include="Tables\Dictionaries\ReceiptDecode.sql" />
+    <Build Include="Schema\XML.sql" />
+    <Build Include="Tables\XML\XMLBegin.sql" />
+    <Build Include="Procedures\XML\InsertXML.sql" />
+    <Build Include="Tables\XML\CRMClient.sql" />
+    <Build Include="Tables\XML\CRMDespatch.sql" />
+    <Build Include="Tables\XML\CRMPharmacy.sql" />
+    <Build Include="Tables\XML\CRMWare.sql" />
+    <Build Include="Tables\XML\CRMWarehouse.sql" />
+    <Build Include="Tables\XML\CRMWhBalance.sql" />
+    <Build Include="Tables\XML\CRMWhReceipt.sql" />
+    <Build Include="Schema\Production.sql" />
+    <Build Include="Tables\Production\COSR.sql" />
+    <Build Include="Tables\Production\CSKT.sql" />
+    <Build Include="Tables\Production\T024D.sql" />
+    <Build Include="Tables\Production\ZPP_EFFICIENT.sql" />
+    <Build Include="Tables\Production\ZPP070224.sql" />
+    <Build Include="Tables\Stage\ZPP070224.sql" />
+    <Build Include="Procedures\Stage\КопияinsertDebit.sql" />
+    <Build Include="Tables\Production\BPC_plan_year_EI.sql" />
+    <Build Include="Tables\Production\BPC_FG_plan_year.sql" />
+    <Build Include="Tables\Production\FactFG.sql" />
+    <Build Include="Tables\Production\PlanFG_.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DWHDarnitsa.refactorlog" />
+  </ItemGroup>
+</Project>

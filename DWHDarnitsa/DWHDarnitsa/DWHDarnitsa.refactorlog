@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="a65ab9ba-8ec9-494f-8ce8-8a5aa1c53c21" ChangeDateTime="10/28/2021 10:39:42">
+    <Property Name="ElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D].[PERIOD]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Month" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="56ac42cb-bf1f-466e-a9aa-9ea07178e43f" ChangeDateTime="10/28/2021 10:39:48">
+    <Property Name="ElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D].[DRUGS_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DrID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="dbcd7c83-549e-42dc-b20c-a0cd27b2fd78" ChangeDateTime="10/28/2021 10:40:04">
+    <Property Name="ElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D].[AREA_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AreID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6960f4d9-3561-4f8a-8d09-c9b915573610" ChangeDateTime="10/28/2021 10:40:08">
+    <Property Name="ElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D].[Q]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Quantity" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ca6b8abe-3a1b-4bb6-9683-c3d88e4bf4a8" ChangeDateTime="10/28/2021 10:40:13">
+    <Property Name="ElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D].[V_UAH]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VolumeUah" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3ec8cdc9-1da1-4487-89ca-b4c5c80b07fd" ChangeDateTime="10/28/2021 10:40:16">
+    <Property Name="ElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D].[V_USD]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VolumeUsd" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="df2a3d04-791a-4086-8b30-c5e31dc920d1" ChangeDateTime="10/28/2021 10:40:19">
+    <Property Name="ElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D].[V_EUR]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VolumeEur" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4ec74b38-1782-4daa-9cd5-d6496d83d75f" ChangeDateTime="10/28/2021 10:40:22">
+    <Property Name="ElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D].[P_UAH]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PriceUAH" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9608dc2a-0b4c-479a-90d3-b9f72395c111" ChangeDateTime="10/28/2021 10:40:25">
+    <Property Name="ElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D].[P_USD]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PriceUSD" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8a952b22-5c1c-4ae2-b0d3-afb88e008c4b" ChangeDateTime="10/28/2021 10:40:28">
+    <Property Name="ElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D].[P_EUR]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PriceEUR" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a563bc63-8a27-4c92-8c0b-e9fe67f57767" ChangeDateTime="10/28/2021 10:40:54">
+    <Property Name="ElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D].[SRO_W]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[AUDIT_SO_COUNTRY_WEEK_D]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SROw" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0a40d835-0f1d-4c38-8a18-d4341048c828" ChangeDateTime="10/28/2021 10:59:16">
+    <Property Name="ElementName" Value="[morion].[Groups].[DRUGS_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[morion].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DrID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c59b920a-16d8-455a-9232-7f6b45113e7c" ChangeDateTime="10/28/2021 10:59:24">
+    <Property Name="ElementName" Value="[morion].[Groups].[PRODUCT_NAME]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[morion].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PN" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="74df4f7c-f395-4814-95cb-e6e8a661ceb7" ChangeDateTime="10/28/2021 10:59:38">
+    <Property Name="ElementName" Value="[morion].[Groups].[GR_LEVEL1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[morion].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GR1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2682d50f-1e6b-4e2e-942e-251c3c608fc2" ChangeDateTime="10/28/2021 10:59:48">
+    <Property Name="ElementName" Value="[morion].[Groups].[GR_LEVEL2]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[morion].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GR2" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5cfb57cb-27b9-46a5-ac14-8dbaa484eb1f" ChangeDateTime="10/28/2021 11:00:03">
+    <Property Name="ElementName" Value="[morion].[Groups].[GR_LEVEL3]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[morion].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GR3" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="36087b77-4af0-408e-af5a-0faa41c8c12a" ChangeDateTime="10/28/2021 11:02:59">
+    <Property Name="ElementName" Value="[morion].[Groups].[GR_LEVEL4]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[morion].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GR4" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c55a76b4-ed29-4b4e-a0f7-3a961e8f8c98" ChangeDateTime="10/28/2021 11:03:02">
+    <Property Name="ElementName" Value="[morion].[Groups].[GR_LEVEL5]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[morion].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GR5" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="df5df1ce-0821-4387-ae20-e0324ab136b7" ChangeDateTime="10/28/2021 11:08:03">
+    <Property Name="ElementName" Value="[morion].[Groups].[PRODUCT_NAME_TREE]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[morion].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProdNameTr" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e3f0230d-0bd4-4750-9c98-b63595d4a79a" ChangeDateTime="10/28/2021 11:08:10">
+    <Property Name="ElementName" Value="[morion].[Groups].[IS_LOCAL]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[morion].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ISL" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="22770531-04a4-444a-a25d-f8caeadcca34" ChangeDateTime="10/28/2021 11:08:17">
+    <Property Name="ElementName" Value="[morion].[Groups].[IS_COMP]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[morion].[Groups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ISC" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5e87939b-d20a-40f6-a0da-840f5702560a" ChangeDateTime="10/28/2021 11:19:27">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[DRUGS_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DrID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1589b341-d821-4b8e-8822-11a11cbd88c4" ChangeDateTime="10/28/2021 11:19:45">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[BRAND_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BrandID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ea6ec851-58ab-4cdd-8ec3-6d05ae155afe" ChangeDateTime="10/28/2021 11:20:47">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Domestic/Foreign]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TypeDrug" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e7d5cc3a-2dd0-4593-b714-94a1c9edb9e3" ChangeDateTime="10/28/2021 11:20:57">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Domestic/Foreign(maker)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TypeDrugMaker" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c93b9f16-d468-44e1-9cce-99dac26c54c9" ChangeDateTime="10/28/2021 11:21:16">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Licensee country]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LicenCountr" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4e556f76-18bf-4c5a-a06d-ba5d764b19d2" ChangeDateTime="10/28/2021 11:21:38">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Corp_Country]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Manufacturer" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8364e312-e850-432b-a253-8a1a3b6127cc" ChangeDateTime="10/28/2021 11:21:54">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Full medication name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FullMedName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="077ed8e5-eaa3-41b1-845f-de5ab223c940" ChangeDateTime="10/28/2021 11:22:02">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[NUMBER]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Number" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="020d5354-e570-4a2a-a4b0-8355c62b854a" ChangeDateTime="10/28/2021 11:22:45">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[DRUG_NAME]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DrugName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f2893a87-10b8-416d-8b4e-3e3fd1ce4b1e" ChangeDateTime="10/28/2021 11:22:53">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Rx/OTC]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RxOtc" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e90a6ebf-753f-43df-91fc-fdf895328ec3" ChangeDateTime="10/28/2021 11:23:04">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Market Org]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MarketOrg" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a0267f78-de0e-472c-8005-36c30281e1bd" ChangeDateTime="10/28/2021 11:23:12">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[License Owner]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LicenOwner" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b5f9a400-d59d-4aa0-b226-e0da3fb270ad" ChangeDateTime="10/28/2021 11:25:26">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[NFC Code (1)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NFC1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="98cb5dde-21d2-4b7c-a61a-0f1135d82caa" ChangeDateTime="10/28/2021 11:25:34">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[NFC Code (2)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NFC2" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="82826d91-d1df-4bbe-b463-0ac20ded8d1e" ChangeDateTime="10/28/2021 11:25:37">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[NFC Code (3)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NFC3" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a81d11ef-439c-49c5-878b-c9ee98cd0365" ChangeDateTime="10/28/2021 11:25:41">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[ATC Code (1)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ATC1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3c5cf4aa-d42c-40ab-bae9-88b2f8b4b92b" ChangeDateTime="10/28/2021 11:25:45">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[ATC Code (2)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ATC2" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="feeb9b23-83a8-473c-bf4d-cd4f72a983a5" ChangeDateTime="10/28/2021 11:27:34">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[ATC Code (3)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ATC3" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="508f45e5-db48-4707-8032-976669d5b6b1" ChangeDateTime="10/28/2021 11:27:44">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[ATC Code (4)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ATC4" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0cb116e9-188f-4550-8988-d11c9bb26afd" ChangeDateTime="10/28/2021 11:27:53">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[ATC Code (5)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ATC5" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6ac41c2f-79cf-449d-a889-3b8f89ca194c" ChangeDateTime="10/28/2021 11:27:58">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[EphMRA Code (1)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EMRA1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c0edce8c-8f72-4b99-8922-4d96f49619e8" ChangeDateTime="10/28/2021 11:28:02">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[EphMRA Code (2)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EMRA2" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e66687d8-340b-4421-9253-1bee8eedda18" ChangeDateTime="10/28/2021 11:28:06">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[EphMRA Code (3)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EMRA3" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="38bff1b9-8b7a-4356-9de6-cb269f3a20fc" ChangeDateTime="10/28/2021 11:28:24">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[EphMRA Code (4)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EMRA4" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="16627bec-f9c2-4c94-b15a-e010de1d52f1" ChangeDateTime="10/28/2021 11:29:10">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Cosmetic_1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cosm1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="451b722a-acb9-4e9c-8827-4bb9ec19c805" ChangeDateTime="10/28/2021 11:29:13">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Cosmetic_2]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cosm2" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4b1a9b85-b522-4154-99e1-5a3d9d57ded8" ChangeDateTime="10/28/2021 11:29:16">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Cosmetic_3]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cosm3" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f965c7d6-ab25-43df-8d93-7beb30440001" ChangeDateTime="10/28/2021 11:29:19">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Cosmetic_4]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cosm4" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="98b25b34-06b6-4dbc-9aa4-9daffbbb7295" ChangeDateTime="10/28/2021 11:29:23">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Cosmetic_5]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cosm5" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8e6afc46-bd08-42cf-8848-9f876321b6ad" ChangeDateTime="10/28/2021 11:29:48">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[LAUNCH_DATE]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LaunchD" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d9d65945-00c2-4209-9f75-9ed7e3c690fc" ChangeDateTime="10/28/2021 11:30:03">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Bad_1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Bad1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f373c501-2aee-4193-aebd-3cc3d478366a" ChangeDateTime="10/28/2021 11:30:15">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Bad_2]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Bad2 " />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8cf7543c-bbce-424c-b884-52eb0c272234" ChangeDateTime="10/28/2021 11:30:19">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[MC_1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MC1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="064746cf-3857-4471-888e-1b2fca843edf" ChangeDateTime="10/28/2021 11:30:22">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[MC_2]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MC2" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="746ccfc9-6337-4310-b9ad-c33bad370d1b" ChangeDateTime="10/28/2021 11:30:27">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[MC_3]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MC3" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="80b327a5-5b20-478e-9fbe-56be15ac56c8" ChangeDateTime="10/28/2021 11:30:30">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[MC_4]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MC4" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2ff4e6be-30e3-4907-a163-b5da716a99ac" ChangeDateTime="10/28/2021 11:30:35">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Market_Status]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MarketStatus" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a4c90fa6-1bc1-4d18-8bab-fbe4e495a57d" ChangeDateTime="10/28/2021 11:30:40">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[DDD_AMOUNT]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DDD" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="acb4044e-71b6-4a1a-bc6d-2bf19e8e436c" ChangeDateTime="10/28/2021 11:30:45">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Substance volume]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SubstanceVol" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0828ad51-ed94-4c75-8615-d8ecb9607d84" ChangeDateTime="10/28/2021 11:30:54">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Essential Drugs and MPP (KMU №400 from 29.Mar.06 with changes)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MPP400" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="54008418-acf9-410b-91e8-e6cb174b928f" ChangeDateTime="10/28/2021 11:30:59">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Regulated prices (MOH and MOE №480/294 from 03.Dec.01)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RegulatedPrice" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5c795442-65fd-4c61-b1fd-08a1f79f9b0e" ChangeDateTime="10/28/2021 11:31:05">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Essential Drugs and MPP (KMU №333 from 25.Mar.09 )]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MPP333" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e27d1660-fe41-4855-8087-04dd1d6a59bd" ChangeDateTime="10/28/2021 11:31:08">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Budget funds (MOH №86 from 27.Feb.06 with changes)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BudgetFond" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0b03508e-e6f2-4a78-9a2e-b064c3611eb4" ChangeDateTime="10/28/2021 11:31:12">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Obligatory assortment(MOH №1000). Repealed (MOH №660)]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ObligatoryAssort" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4b311708-2386-4c90-8849-83a953dfe470" ChangeDateTime="10/28/2021 11:31:16">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[NATIONAL LIST OF MAJOR MEDICINES]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NationalList" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="26577b2e-2d29-473c-a808-8a5f78c5585a" ChangeDateTime="10/28/2021 11:31:21">
+    <Property Name="ElementName" Value="[Morion].[Drugs_eng].[Pack Volume]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Morion].[Drugs_eng]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PackVolume" />
+  </Operation>
+</Operations>
