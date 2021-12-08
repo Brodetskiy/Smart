@@ -1,6 +1,5 @@
 ﻿create PROCEDURE [stage].[insertZPP070224]
 	AS
-
 		begin
 			
 			set dateformat dmy;
