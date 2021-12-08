@@ -13,8 +13,8 @@ select cast(substring(date_stock, 7, 4) + substring(Date_Stock, 4, 2) + substrin
        code,
        lot,
        qty,
-       try_cast(date_coming as date),
-       try_cast(date_expiration as date),
+       try_cast(iif(try_cast(date_coming as int) is not null, dateadd(dd, cast(date_coming as int), cast('18991230' as date)), date_coming ) as date),
+       try_cast(iif(try_cast(date_expiration as int) is not null, dateadd(dd, cast(date_expiration as int), cast('18991230' as date)), date_expiration ) as date),
        mon_term,
        qty_day_real,
        qty_day_exp
