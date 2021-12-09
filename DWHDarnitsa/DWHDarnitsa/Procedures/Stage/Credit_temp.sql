@@ -9,7 +9,7 @@
 	[Контрагент] nvarchar(max),
 	[Назва контрагенту] nvarchar(max),
 	[Тип рахун.] nvarchar(max),
-	[Пос.рах.] int,
+	[Пос.рах.] nvarchar(max),
 	[Рік] int,
 	[Ном.док] int,
 	[Фінанс.рік] int,
