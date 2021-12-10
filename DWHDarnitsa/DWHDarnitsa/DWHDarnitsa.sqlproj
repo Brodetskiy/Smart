@@ -190,7 +190,7 @@
     <Build Include="Tables\dbo\war_capacity.sql" />
     <Build Include="Schema\Personnel.sql" />
     <Build Include="Tables\Personnel\AD.sql" />
-    <Build Include="Procedures\Stage\Credit_temp.sql" />
+    <Build Include="Tables\Stage\Credit_temp.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DWHDarnitsa.refactorlog" />
