@@ -19,6 +19,8 @@
     TIME_LOST        DECIMAL(16, 3),
     PROSTOY          DECIMAL(16, 3),
     FAZA_PEREHOD     DECIMAL(16, 3),
+    OPER_STANDARD    DECIMAL(16, 3),
+    PERENALADKI_TIME DECIMAL(16, 3),
     AVAIL            DECIMAL(16, 3),
     AVAIL_D1         DECIMAL(16, 3),
     AVAIL_D2         DECIMAL(16, 3),
