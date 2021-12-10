@@ -191,6 +191,7 @@
     <Build Include="Schema\Personnel.sql" />
     <Build Include="Tables\Personnel\AD.sql" />
     <Build Include="Tables\Stage\Credit_temp.sql" />
+    <Build Include="Procedures\Stage\insert_Credit.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DWHDarnitsa.refactorlog" />
