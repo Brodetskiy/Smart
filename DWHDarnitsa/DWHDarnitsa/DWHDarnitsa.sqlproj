@@ -196,6 +196,7 @@
     <Build Include="Tables\Stage\war_pallet.sql" />
     <Build Include="Tables\dbo\war_pallet.sql" />
     <Build Include="Procedures\Stage\Insert_war_pallet.sql" />
+    <Build Include="Tables\Stage\fact_shipment.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DWHDarnitsa.refactorlog" />
