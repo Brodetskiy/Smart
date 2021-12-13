@@ -2,6 +2,8 @@
 AS
 begin
     
+    set dateformat dmy;
+
     truncate table dbo.credit
 
     insert into dbo.credit ([бал.од], [дата звіту], [рах.гк], [довг.тек.рах.гол.кн.], [мсфо кат.], [мсфо вид],
