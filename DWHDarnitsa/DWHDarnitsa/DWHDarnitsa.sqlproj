@@ -192,6 +192,7 @@
     <Build Include="Tables\Personnel\AD.sql" />
     <Build Include="Tables\Stage\Credit_temp.sql" />
     <Build Include="Procedures\Stage\insert_Credit.sql" />
+    <Build Include="Tables\dbo\Credit.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DWHDarnitsa.refactorlog" />
