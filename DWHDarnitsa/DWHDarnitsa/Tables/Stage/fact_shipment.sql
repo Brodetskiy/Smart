@@ -28,7 +28,7 @@
 	[Відтермін.] nvarchar(max),
 	[№ контр.] nvarchar(max),
 	[КодГрМат] nvarchar(max),
-	[Опис гр.матер.] nvarchar(max),
+	[Опис гр.матер.] nvarchar(max), 
 	РЗ nvarchar(max),
 	[Отримувач] nvarchar(max)
 )
