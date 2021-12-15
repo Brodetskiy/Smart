@@ -10,5 +10,5 @@
     Date_Expiration NVARCHAR(MAX),
     Mon_Term INT,
     qty_day_real int,
-    qty_day_exp int
+    qty_day_exp nvarchar(max)
 )
