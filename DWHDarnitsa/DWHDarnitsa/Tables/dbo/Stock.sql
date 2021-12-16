@@ -5,7 +5,7 @@
     Month           int,
     Code            int,
     LOT             nvarchar(max),
-    QTY             nvarchar(max),
+    QTY             FLOAT,
     Date_Coming     date,
     Date_Expiration date,
     Mon_Term        INT,

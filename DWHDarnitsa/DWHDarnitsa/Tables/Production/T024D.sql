@@ -1,4 +1,5 @@
 ﻿CREATE TABLE Production.[T024D]
 (
-	DSNAM nvarchar(3)
+	DISPO nvarchar(3),
+	DSNAM nvarchar(18)
 )

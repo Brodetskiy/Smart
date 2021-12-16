@@ -197,6 +197,10 @@
     <Build Include="Tables\dbo\war_pallet.sql" />
     <Build Include="Procedures\Stage\Insert_war_pallet.sql" />
     <Build Include="Tables\Stage\fact_shipment.sql" />
+    <Build Include="Tables\Production\ZPP_BOARD.sql" />
+    <Build Include="Tables\dbo\fact_shipment.sql" />
+    <Build Include="Procedures\Stage\insert_fact_shipment.sql" />
+    <Build Include="Tables\Project\Purpose.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DWHDarnitsa.refactorlog" />

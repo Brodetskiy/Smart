@@ -12,13 +12,19 @@ select cast(substring(date_stock, 7, 4) + substring(Date_Stock, 4, 2) + substrin
        month,
        code,
        lot,
-       qty,
-       try_cast(iif(try_cast(date_coming as int) is not null, dateadd(dd, cast(date_coming as int), cast('18991230' as date)), date_coming ) as date),
-       try_cast(iif(try_cast(date_expiration as int) is not null, dateadd(dd, cast(date_expiration as int), cast('18991230' as date)), date_expiration ) as date),
+       cast(qty as float),
+       try_cast(iif(try_cast(date_coming as int) is not null, dateadd(dd, try_cast(date_coming as int), cast('18991230' as date)), date_coming ) as date),
+       try_cast(case
+                        when datalength(trim(date_coming)) = 0 then null
+                        when try_cast(date_coming as int) <> 0 and datalength(trim(date_coming)) = 16 then
+                                substring(date_coming, 5, 4) + substring(date_coming, 3, 2) +
+                                substring(date_coming, 1, 2)
+                        when try_cast(date_coming as date) is not null then cast(date_coming as date)
+               end as date),
        mon_term,
        qty_day_real,
-       qty_day_exp
+       try_cast(qty_day_exp as int)
 from stage.Stock_temp
 
-truncate table stage.Stock_temp
+--truncate table stage.Stock_temp
         end
