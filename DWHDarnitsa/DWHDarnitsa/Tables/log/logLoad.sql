@@ -5,5 +5,6 @@
 	dateOperation datetime default getdate(),
 	typeOperation nvarchar(200),
 	countRows bigint,
-	isSuccess nvarchar(20)
+	isSuccess nvarchar(20), 
+    [typeRow] NVARCHAR(50) NULL
 )
