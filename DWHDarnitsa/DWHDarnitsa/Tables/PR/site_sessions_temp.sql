@@ -1,6 +1,6 @@
-﻿CREATE TABLE [Stage].[site_sessions_temp]
+﻿CREATE TABLE [PR].[site_sessions]
 (
-	[date] nvarchar(max),
+	[date] date,
 	[deviceCategory] nvarchar(max),
 	[users] int,
 	[sessions] int,

@@ -76,6 +76,7 @@
     <Folder Include="Procedures\XML" />
     <Folder Include="Tables\Production" />
     <Folder Include="Tables\Personnel" />
+    <Folder Include="Tables\PR" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Morion\Area.sql" />
@@ -201,7 +202,10 @@
     <Build Include="Tables\dbo\fact_shipment.sql" />
     <Build Include="Procedures\Stage\insert_fact_shipment.sql" />
     <Build Include="Tables\Project\Purpose.sql" />
-    <Build Include="Tables\Stage\site_sessions_temp.sql" />
+    <Build Include="Schema\PR.sql" />
+    <Build Include="Tables\PR\site_sessions_temp.sql" />
+    <Build Include="Tables\PR\site_stats_by_page.sql" />
+    <Build Include="Tables\PR\site_users.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DWHDarnitsa.refactorlog" />
