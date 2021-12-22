@@ -201,6 +201,7 @@
     <Build Include="Tables\dbo\fact_shipment.sql" />
     <Build Include="Procedures\Stage\insert_fact_shipment.sql" />
     <Build Include="Tables\Project\Purpose.sql" />
+    <Build Include="Tables\Stage\site_sessions_temp.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DWHDarnitsa.refactorlog" />
