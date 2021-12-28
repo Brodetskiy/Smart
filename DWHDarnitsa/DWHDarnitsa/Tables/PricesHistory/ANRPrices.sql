@@ -8,5 +8,6 @@
 	[Наименование] nvarchar(max),
 	[ВнешнийКод] nvarchar(max),
 	[Партнер] nvarchar(max),
-	[ПартнерОКПО] int
+	[ПартнерОКПО] int,
+	dateWrite date default getdate()
 )
