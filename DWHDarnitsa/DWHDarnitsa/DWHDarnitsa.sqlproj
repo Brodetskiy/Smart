@@ -78,6 +78,7 @@
     <Folder Include="Tables\Personnel" />
     <Folder Include="Tables\PR" />
     <Folder Include="Tables\Quality" />
+    <Folder Include="Tables\PricesHistory" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Morion\Area.sql" />
@@ -209,6 +210,8 @@
     <Build Include="Tables\PR\site_users.sql" />
     <Build Include="Schema\Quality.sql" />
     <Build Include="Tables\Quality\metrics.sql" />
+    <Build Include="Schema\PricesHistory.sql" />
+    <Build Include="Tables\PricesHistory\ANRPrices.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DWHDarnitsa.refactorlog" />
