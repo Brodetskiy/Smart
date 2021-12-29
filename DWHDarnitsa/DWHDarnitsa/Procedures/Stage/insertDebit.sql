@@ -51,7 +51,7 @@ select
 
 		from stage.debit_temp s
 
-		truncate table stage.debit_temp
+		--truncate table stage.debit_temp
 		end
 		
 
