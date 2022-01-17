@@ -4,13 +4,15 @@
 			
 			set dateformat dmy;
 			
-			truncate table Finance.Debit
+			--truncate table Finance.Debit
 			
-			--delete 
-			--from Finance.Debit
+			delete 
+			from Finance.Debit
 			--where [Дата звіту] >= dateadd(MM, -1, cast(GETDATE() as date))
-			--where exists (select 1 from stage.debit_temp s where try_cast(s.[Дата звіту] as date) = [Дата звіту])
-
+			--where exists (select 1 from stage.debit_temp s where cast(s.[Дата звіту] as date) = [Дата звіту])
+			where [Дата звіту] >= (select min(try_cast([Дата звіту] as date)) from stage.debit_temp) 
+				  --or YEAR([Дата звіту]) <= year(dateadd(dd, -15, GETDATE())) -- в випадку якшо потрібні дані лише за два роки - поточний і попередній
+			
 			insert into Finance.Debit ([Бал.од], [Дата звіту], [Рах.ГК], [Довг.тек.рах.гол.кн.], [МСФО кат.], [МСФО вид],
 										[Контрагент], [Назва контрагенту], [Тип рахун.], [Пос.рах.], [Рік], [Ном.док], 
 										[Фінанс.рік], [Поз.], [Дата док.], [Дата пров.], [Вирівнюв.], [Дата догов],
