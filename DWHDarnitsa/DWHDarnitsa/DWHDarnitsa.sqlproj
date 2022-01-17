@@ -205,7 +205,7 @@
     <Build Include="Procedures\Stage\insert_fact_shipment.sql" />
     <Build Include="Tables\Project\Purpose.sql" />
     <Build Include="Schema\PR.sql" />
-    <Build Include="Tables\PR\site_sessions_temp.sql" />
+    <Build Include="Tables\PR\site_sessions.sql" />
     <Build Include="Tables\PR\site_stats_by_page.sql" />
     <Build Include="Tables\PR\site_users.sql" />
     <Build Include="Schema\Quality.sql" />
