@@ -4,7 +4,14 @@ begin
     
     set dateformat dmy;
 
-    truncate table dbo.credit
+    --truncate table dbo.credit
+
+    delete 
+	from dbo.credit 
+	where [Дата звіту] >= (select min(try_cast(iif(try_cast([дата звіту] as int) is not null,
+                        dateadd(dd, cast([дата звіту] as int), cast('18991230' as date)),
+                        [дата звіту]) as date)) from stage.Credit_temp) 
+
 
     insert into dbo.credit ([бал.од], [дата звіту], [рах.гк], [довг.тек.рах.гол.кн.], [мсфо кат.], [мсфо вид],
                             контрагент, [назва контрагенту], [тип рахун.], [пос.рах.], рік, [ном.док], [фінанс.рік],
